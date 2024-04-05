@@ -31,6 +31,7 @@ int main(int argc, char const *argv[])
     desviacionTipica = desviacion(primero);
     free(primero);
     printf("\nLa desviacion tipica es: %lf\n", desviacionTipica);
+    
     return 0;
 }
 
