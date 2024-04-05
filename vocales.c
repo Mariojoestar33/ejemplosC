@@ -5,6 +5,8 @@
 
 #define MAX 2
 
+int contarVocales(char*);
+
 int main() {
     int totalVocales = 0;
     char ** lineas;
