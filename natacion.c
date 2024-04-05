@@ -59,8 +59,6 @@ double desviacion(nadador* competidor) {
         diferencias[i] = ptr->tiempo - media;
         diferencias[i] *= diferencias[i];
     }
-    free(ptr);
-    //Suma de las diferencias al cuadrado
     double varianza = 0;
     for (int i = 0; i < ALUMNOS; i++) {
         varianza += (double)diferencias[i];
