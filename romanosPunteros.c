@@ -22,6 +22,7 @@ int main() {
         }
     }
     printf("\nEl numero en formato decimal es: %d\n", suma);
+    free(puntero);
     return 0;
 }
 
